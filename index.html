@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gothwad Apps - App & Game Development Company in Kanpur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary-black: #000; --primary-red: #dc3545; --bg-dark: #111; }
+        body { font-family: 'Arial', sans-serif; background: linear-gradient(135deg, var(--bg-dark), #222); color: #fff; }
+        .navbar { background: rgba(0,0,0,0.9); }
+        .navbar-brand { color: var(--primary-red) !important; font-weight: bold; font-size: 1.5rem; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('data:image/svg+xml;base64,...') center/cover; padding: 100px 0; text-align: center; } /* Add your hero image */
+        .hero h1 { font-size: 3.5rem; color: var(--primary-red); }
+        .service-card { background: rgba(255,255,255,0.1); border: 1px solid var(--primary-red); transition: transform 0.3s; }
+        .service-card:hover { transform: translateY(-10px); }
+        .btn-custom { background: var(--primary-red); border: none; padding: 12px 30px; font-weight: bold; }
+        footer { background: var(--primary-black); padding: 20px 0; text-align: center; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fab fa-android"></i> Gothwad Apps</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero mt-5 pt-5">
+        <div class="container">
+            <h1>Next-Gen Apps & Games by Gothwad Apps</h1>
+            <p class="lead mb-4">Kanpur-based app developers creating Android, Web & 3D Games with Firebase integration. Join 100+ happy clients!</p>[web:18]
+            <a href="#contact" class="btn btn-custom btn-lg">Book Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center p-4">
+                        <i class="fas fa-mobile-alt fa-3x text-danger mb-3"></i>
+                        <h4>Android/iOS Apps</h4>
+                        <p>Native & Flutter apps for chat, parental control & kids games.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center p-4">
+                        <i class="fas fa-gamepad fa-3x text-danger mb-3"></i>
+                        <h4>Game Development</h4>
+                        <p>2D/3D games like Free Fire style with Three.js & Unity.</p>[memory:1]
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center p-4">
+                        <i class="fas fa-database fa-3x text-danger mb-3"></i>
+                        <h4>Firebase Backend</h4>
+                        <p>Scalable backends, ads integration & monetization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-5">Portfolio Highlights</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-transparent border-0">
+                        <img src="https://via.placeholder.com/400x250?text=Water+Puzzle+Pro" class="card-img-top" alt="Water Puzzle Pro">
+                        <div class="card-body text-center">
+                            <h5>Water Puzzle Pro</h5>
+                            <a href="https://play.google.com/store/apps" class="btn btn-custom">View on Store</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more portfolio items -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Gothwad Apps, Kanpur, UP. All rights reserved. | Developed by Pawan (Bittu)</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
